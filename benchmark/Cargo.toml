@@ -23,7 +23,7 @@ tabled = "0.14.0"
 text-generation-client = { path = "../backends/client" }
 thiserror = "1.0.48"
 tokenizers = { workspace = true }
-tokio = { version = "1.32.0", features = ["rt", "rt-multi-thread", "parking_lot", "signal", "sync", "macros"] }
+tokio = { version = "1.43.1", features = ["rt", "rt-multi-thread", "parking_lot", "signal", "sync", "macros"] }
 ratatui = "0.28.1"
 tracing = "0.1.37"
 tracing-subscriber = { version = "0.3.17", features = ["json", "env-filter"] }
